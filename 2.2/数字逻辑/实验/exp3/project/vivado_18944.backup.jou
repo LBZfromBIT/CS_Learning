@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon May 20 18:05:47 2024
+# Process ID: 18944
+# Current directory: C:/Users/liubi/Desktop/exp/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30384 C:\Users\liubi\Desktop\exp\project_1\project_1.xpr
+# Log file: C:/Users/liubi/Desktop/exp/project_1/vivado.log
+# Journal file: C:/Users/liubi/Desktop/exp/project_1\vivado.jou
+# Running On: LBZ, OS: Windows, CPU Frequency: 3187 MHz, CPU Physical cores: 12, Host memory: 16802 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/liubi/Desktop/exp/project_1/project_1.xpr
+add_files -norecurse C:/Users/liubi/Desktop/exp/project_1/code/status.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/liubi/Desktop/exp/project_1/code/status_testbench.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1

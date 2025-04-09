@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liubi/Desktop/exp/exp2/exp2_code/exp2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_three
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liubi/Desktop/exp/exp2/exp2_code/exp2TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_add_three

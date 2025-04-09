@@ -1,0 +1,44 @@
+body {
+    color: white;
+    background-image: url("img/背景.jpg");
+    font-family: SimHei,SimSong,sans-serif;
+    font-size:25px;
+}
+.left_picture{
+    float:left;
+}
+#hello{
+    text-align: center;
+    font-weight: bold;
+}
+#basic_inf {
+    font-size: 30px;
+    font-family:SimHei,SimSong,sans-serif;
+    font-weight: bolder;}
+.keywords {
+    font-style: italic;
+    font-weight: bold;
+    color: cadetblue;
+}
+a:link{
+    font-style: italic;
+    color: aquamarine;
+}
+a:visited{
+    font-style: italic;
+    color: aqua;
+}
+a:active{
+    font-style: italic;
+    color:blue;
+}
+
+ul{
+    color: cadetblue;
+    font-weight: bold;
+}
+.name{
+    font-weight: bold;
+    color: aquamarine;
+    font-style: italic;
+}

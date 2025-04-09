@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "NASM32 Build",
+			"command": "ml",
+			"args": [
+				"/c",
+				"/coff",
+				"/Zd",
+				"${file}"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher":[]
+		},
+		{
+			"type": "shell",
+			"label": "NASM32 Link for Console",
+			"command": "link",
+			"args": [
+				"/SUBSYSTEM:CONSOLE",   
+				"/MACHINE:X86",         
+				"${fileDirname}\\${fileBasenameNoExtension}.obj"
+			],
+			"group": "build",
+			"problemMatcher":[]
+		},
+		{
+			"type": "shell",
+			"label": "NASM32 Link for Windows",
+			"command": "link",
+			"args": [
+				"/SUBSYSTEM:WINDOWS",   
+				"/MACHINE:X86",         
+				"${fileDirname}\\${fileBasenameNoExtension}.obj"
+			],
+			"group": "build",
+			"problemMatcher":[]
+		}
+	]
+}

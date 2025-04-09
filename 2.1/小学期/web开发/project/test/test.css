@@ -1,0 +1,34 @@
+body {
+    font-family: SimSong,SimHei,sans-serif;
+    color: aliceblue;
+    background-color: brown;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+#beginning{
+    text-align: center;
+    font-size: larger;
+}
+.intro{
+   font-size: larger;
+}
+
+
+form{
+    font-size:xx-large;
+}
+.lp {
+    float: left;
+}
+#result{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+table{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}

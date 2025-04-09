@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "cstdlib": "cpp",
+        "bitset": "cpp",
+        "string_view": "cpp"
+    }
+}

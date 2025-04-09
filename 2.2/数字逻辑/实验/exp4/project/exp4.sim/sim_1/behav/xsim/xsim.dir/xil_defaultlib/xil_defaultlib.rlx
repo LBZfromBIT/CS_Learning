@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/liubi/Desktop/exp/exp4/code/display_control.v,1716619553,verilog,,C:/Users/liubi/Desktop/exp/exp4/code/main.v,,display_control,,,,,,,,
+C:/Users/liubi/Desktop/exp/exp4/code/main.v,1716618911,verilog,,C:/Users/liubi/Desktop/exp/exp4/code/num2LED.v,,traffic_light,,,,,,,,
+C:/Users/liubi/Desktop/exp/exp4/code/num2LED.v,1716619203,verilog,,C:/Users/liubi/Desktop/exp/exp4/code/testbench.v,,num2LED,,,,,,,,
+C:/Users/liubi/Desktop/exp/exp4/code/testbench.v,1716606935,verilog,,,,testbench,,,,,,,,
+C:/Users/liubi/Desktop/exp/exp4/exp4.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,

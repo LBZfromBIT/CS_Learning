@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat May 25 14:40:30 2024
+# Process ID: 29504
+# Current directory: C:/Users/liubi/Desktop/exp/exp4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent49192 C:\Users\liubi\Desktop\exp\exp4\exp4.xpr
+# Log file: C:/Users/liubi/Desktop/exp/exp4/vivado.log
+# Journal file: C:/Users/liubi/Desktop/exp/exp4\vivado.jou
+# Running On: LBZ, OS: Windows, CPU Frequency: 3187 MHz, CPU Physical cores: 12, Host memory: 16802 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/liubi/Desktop/exp/exp4/exp4.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/liubi/Desktop/exp/exp4/code/main.v] -no_script -reset -force -quiet
+remove_files  C:/Users/liubi/Desktop/exp/exp4/code/main.v
+export_ip_user_files -of_objects  [get_files C:/Users/liubi/Desktop/exp/exp4/code/display_control.v] -no_script -reset -force -quiet
+remove_files  C:/Users/liubi/Desktop/exp/exp4/code/display_control.v
+add_files -norecurse {C:/Users/liubi/Desktop/exp/exp4/code/display_control.v C:/Users/liubi/Desktop/exp/exp4/code/main.v C:/Users/liubi/Desktop/exp/exp4/code/num2LED.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/liubi/Desktop/exp/exp4/code/testbench.v
+update_compile_order -fileset sim_1
+launch_simulation
+source testbench.tcl
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim

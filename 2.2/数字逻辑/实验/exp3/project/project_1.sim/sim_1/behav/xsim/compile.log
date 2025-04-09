@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liubi/Desktop/exp/project_1/code/status.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module status
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liubi/Desktop/exp/project_1/code/status_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module status_testbench
